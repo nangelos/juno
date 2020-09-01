@@ -16,6 +16,26 @@ a:hover {
   text-decoration: underline;
 }
 
+table {
+  margin-top: 1.5rem;
+  border-spacing: 0px;
+  border-collapse: collapse;
+  min-width: 80%;
+}
+
+tr {
+  margin-bottom: 8px;
+  color: white;
+  background: black;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
 .wrapper1 {
   text-align: center;
 }
@@ -23,7 +43,10 @@ a:hover {
 .wrapper2 {
   display: inline-block;
   width: 95%;
-  /* background: gray; */
+}
+
+.section{
+  text-align: left;
 }
 
 .nav-wrapper {
@@ -48,6 +71,8 @@ a:hover {
   display: flex;
   flex-direction: row;
 }
+
+
 
 #contact {
   justify-content: center;
