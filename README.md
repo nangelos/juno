@@ -5,7 +5,8 @@ This is a place to store interesting things and to build a public online persona
 * Create an *About* section that lays a baseline for who I am and why I'm doing this
 * Create a *Books* list that keeps track of what I read each year
   * May include a small section for thoughts, but I may save all that for somewhere else
+  * May add a *Books to Read* section to keep track of what I hope to read in the future
 * Create a *Blog* where I can share thoughts and ideas
   * This will primarily house ideas around technology and startups, but may veture into sports, books, public policy, travel, or anything else I put thoughts together around
-* Finally there will be a contact section, with information about how to contact me
+* Finally there will be a *Contact* section, with information about how to contact me
   * While I don't anticipate this becoming a high traffic site with lots of followers, creating a small number of meaningful relationships with people is **not** unrealistic
