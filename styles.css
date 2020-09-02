@@ -74,7 +74,28 @@ tr {
   flex-direction: row;
 }
 
+.picture {
+  height: 2018x;
+  width: 188px;
+  border-radius: 100px;
+}
 
+#header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#photo:hover {
+  cursor: pointer;
+  animation: App-logo-spin infinite 10s linear;
+  opacity: .5;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
 
 #contact {
   justify-content: center;
