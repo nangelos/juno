@@ -80,6 +80,10 @@ tr {
   border-radius: 100px;
 }
 
+.about-text {
+  margin-top: 0px;
+}
+
 #header {
   display: flex;
   justify-content: space-around;
