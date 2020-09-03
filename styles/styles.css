@@ -93,17 +93,15 @@ tr {
   width: 28px;
 }
 
-#header {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+#photo {
+  display: none;
 }
 
-#photo:hover {
+/* #photo:hover {
   cursor: pointer;
   animation: App-logo-spin infinite 10s linear;
   opacity: .5;
-}
+} */
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
@@ -121,7 +119,9 @@ tr {
   margin-block-start: 0em;
   margin-block-end: 0em;
   padding-left: 30px;
-  position: fixed bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: bottom;
 }
 
 #sidebar {
@@ -130,6 +130,10 @@ tr {
   height: 100%;
   float: right;
   /* position: fixed; */
+}
+
+#mobile-sidebar {
+  display: none;
 }
 
 #link {
@@ -151,9 +155,8 @@ tr {
     background-color: red;
   }
 
-  #header {
-    margin-top: 220px;
-    max-width: 100%;
+  #photo {
+    display: inline;
   }
 
   #social-box {
@@ -163,16 +166,13 @@ tr {
   }
 
   #sidebar {
-    position:sticky;
-    min-width: 350px;
-  }
-
-  #link {
     display: none;
   }
 
-  #mainbar {
-    position: fixed;
+  #mobile-sidebar {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0px;
   }
 
   #copyright {
