@@ -35,8 +35,12 @@ tr {
   align-items: center;
   justify-content: space-between;
   padding: 8px;
-  cursor: pointer;
   border-radius: 5px;
+}
+
+tr:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .wrapper1 {
@@ -75,13 +79,17 @@ tr {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  padding: 2px 5px;
+  padding: 5px;
+}
+
+.row:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .picture {
-  height: 2018x;
-  width: 188px;
   border-radius: 100px;
+  margin: auto;
 }
 
 .about-text {
@@ -100,7 +108,7 @@ tr {
 
 /* #photo:hover {
   cursor: pointer;
-  animation: App-logo-spin infinite 10s linear;
+  animation: App-logo-spin infinite 6s linear;
   opacity: .5;
 } */
 
@@ -109,12 +117,10 @@ tr {
   to { transform: rotate(360deg); }
 }
 
-#contact {
-  justify-content: center;
-  border-top: solid white 2px;
-  border-bottom: solid white 2px;
-  background-color: rgb(27, 73, 181);
+#contact-nav {
+  display: none;
 }
+
 .copy-wrapper {
   width: 100%;
   display: inline-block;
@@ -134,11 +140,22 @@ tr {
   padding-bottom: 5px;
 }
 
-#sidebar {
-  background: rgba(0, 0, 0, 0.2);
-  min-width: 250px;
+#sidebar-wrapper {
   height: auto;
+  background-image: url('./images/dp2.png');
   margin-right: 4px;
+}
+
+#sidebar {
+  background: rgba(0, 0, 0, 0.6);
+    height: 70vh;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 50%;
+    transform: translate(0, -40%);
 }
 
 #mobile-sidebar {
@@ -147,11 +164,6 @@ tr {
 
 #interests {
   margin-bottom: 10px;
-}
-
-#link {
-  display: flex;
-  justify-content: space-between;
 }
 
 .hashspan {
@@ -171,6 +183,11 @@ tr {
   .navbar {
     margin: 0px;
   }
+
+  #contact-nav {
+    display: inherit;
+  }
+
 
   #photo {
     display: inline;
