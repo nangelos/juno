@@ -4,35 +4,37 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script defer src="index.js"></script>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles/styles.css" />
   <link rel="icon" href="laptop.png" type="image/gif">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
   <title>Nick Angelos</title>
 </head>
 <body>
-  <div class="wrapper1">
-    <div class="nav-wrapper">
-      <div class="navbar">
-        <a href="">Home</a>
-        <a href="#about">About</a>
-        <a href="blog">Blog</a>
-        <a href="books">Books</a>
-        <a href="#links">Links</a>
-        <a href="#contact">Contact</a>
-      </div>
+  <div class="nav-wrapper">
+    <div class="navbar">
+      <a href="">Home</a>
+      <a href="#about">About</a>
+      <a href="blog">Blog</a>
+      <a href="books">Books</a>
+      <a href="#links">Links</a>
+      <a href="#contact">Contact</a>
     </div>
-    <br/>
-    <br/>
+  </div>
+  <br/>
+  <br/>
+<div class="wrapper1">
+    <div id="mainbar">
     <div id="header">
         <h1 style="font-size: 2.5em;">Nick Angelos</h1>
-      <img id="photo" class="picture" src="pic_bw.jpg">
+      <!-- <img id="photo" class="picture" src="pic_bw.jpg"> -->
     </div>
     <span id="about" class="hashspan"></span>
     <h1>About Me</h1>
     <div class="wrapper2">
       <div class="section">
-        <p class="about-text">Nick Angelos is a second year MBA student at Georgetown University's McDonough School of Business. He spent his summer at Bank of America's Real Estate, Gaming and Lodging Investment Banking group, and plans to return there full-time after graduation.</p>
-        <p class="about-text">Before business school Nick was the co-founder of startup in the Home Improvement/Home Repair space, where he focused on building software and performing due diligence on companies to acquire where they could implement their software solutions. Prior to </p>
+        <p class="about-text">Nick Angelos is a second year MBA student at Georgetown University's McDonough School of Business. He spent his summer at Bank of America's Real Estate, Gaming and Lodging Investment Banking group, and plans to return full-time after graduation.</p>
+        <p class="about-text">Before business school Nick was the co-founder of Eddie, a startup in the Home Improvement/Home Repair space, where he focused on building software and performing due diligence on companies to acquire where they could implement their software solutions. Prior to the startup Nick worked in a variety of roles in corporate strategy at Sears Holdings as part of their corporate turnaround.</p>
+        <p class="about-text">Nick is a technology and startup enthusiast, with a strong belief in the ability of technology to make a positive impact on the world. He enjoys writing code, primarily in JavaScript, but likes getting exposure to other languages as well. While not nearly as good at building software as he would like to be, Nick looks for opportunities to continue building his skills.</p>
         <p class="about-text">Education: MBA from Georgetown University, 2021; BS in Economics from Brigham Young University, 2014; Graduate from FullStack Academy of Code, 2018; AS from Dodge City Community College, 2009.</p>
       </div>
     </div>
@@ -51,17 +53,33 @@
     <span id="links" class="hashspan"></span>
     <h1>Links to Interesting Things</h1>
     <span><a href="http:/www.nba.com" style="color: black">NBA</a> - Link to NBA.com</span>
-    <div id="contact" class="row" >
-      <h3>Contact Information:</h3>
-      <h3>
-        <a style="margin-left: 20px;" href="mailto:nick@nick.com">nick@nick.com</a>
-      </h3>
-    </div>
-    <div style="text-align: left; background-color: black; color: white">
-      <h6 id="copyright">&copy; 2020 Nick Angelos
-      </h6>
+  </div>
+  <div id="sidebar">
+    <img id="photo" class="picture" src="styles/images/pic_bw.jpg">
+    <div id="social-box">
+      <div class="row">
+        <img class="icon" src="styles/images/twit.png">
+        <a id="link" href="https://twitter.com/nicksangelos" target="_blank">@nicksangelos</a>
+      </div>
+      <div class="row">
+        <img class="icon" src="styles/images/li_bw.png">
+        <a id="link" href="https://linkedin.com/in/nick-angelos" target="_blank">nick-angelos</a>
+      </div>
+      <div class="row">
+        <img class="icon" src="styles/images/github.png">
+        <a id="link" href="https://github.com/nangelos" target="_blank">nangelos</a>
+      </div>
+      <div class="row" href="mailto:angelos.nick@yahoo.com">
+        <img class="icon" src="styles/images/mail.png">
+        <a id="link" href="mailto:angelos.nick@yahoo.com">angelos.nick@yahoo.com</a>
+      </div>
     </div>
   </div>
-  </div>
+</div>
+</div>
+<div style="text-align: left; background-color: black; color: white">
+  <h6 id="copyright">&copy; 2020 Nick Angelos
+  </h6>
+</div>
 </body>
 </html>
