@@ -1,0 +1,56 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  max-width: 1250px;
+  margin: auto;
+  overflow: auto;
+  /* background-image: image(some books); */
+}
+
+table {
+  margin-top: 1.5rem;
+  border-spacing: 0px;
+  border-collapse: collapse;
+  min-width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  background: rgba(0,0,0,.5)
+}
+
+tr {
+  margin-bottom: 8px;
+  color: white;
+  border-radius: 5px;
+}
+
+th {
+  font-size: 1.5em;
+  border: white 2px solid;
+  padding: 20px;
+}
+
+td {
+  border: white 2px solid;
+  padding: 8px;
+}
+
+.back-wrapper {
+  text-align: left;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+#back{
+  color: black;
+  margin-top: 10px;
+}
+
+.wrapper1 {
+  text-align: center;
+  display: flex;
+}
+
+.wrapper2 {
+  display: inline-block;
+  width: 95%;
+}
