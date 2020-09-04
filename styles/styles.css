@@ -57,6 +57,13 @@ tr:hover {
   text-align: left;
 }
 
+#blog-section{
+  background-image: url('./images/space.png');
+  background-position: center;
+  overflow-y: scroll;
+  max-height: 280px;
+}
+
 .nav-wrapper {
   /* background-color: white; */
   width: 100%;
@@ -195,6 +202,10 @@ tr:hover {
 
   #sidebar {
     display: none;
+  }
+
+  #blog-section{
+    max-height: 185px;
   }
 
   #mobile-sidebar {
