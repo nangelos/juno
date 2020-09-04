@@ -1,7 +1,8 @@
 let table = document.getElementById('blog-posts');
+console.log(table);
 table.onclick = (e) => {
   let href = e.target.dataset.href;
-  window.location = `${href}`;
+  window.location = href;
 };
 
 let btn = document.getElementById('social-box');
@@ -11,6 +12,6 @@ btn.onclick = (e) => {
   if (href !== 'mailto:angelos.nick@yahoo.com') {
     window.open(href, '_blank');
   } else {
-    window.location = `${href}`;
+    window.location = href;
   }
 };
