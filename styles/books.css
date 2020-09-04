@@ -77,6 +77,15 @@ td {
   position: relative;
 }
 
+.post-body {
+  padding-top: 5px;
+}
+
+.post-body:hover {
+  cursor: pointer;
+  background-color: rgba(0,0,0,.05)
+}
+
 .blog-header {
   padding-left: 20px;
   padding-right: 20px;
