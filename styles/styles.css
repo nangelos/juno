@@ -36,6 +36,7 @@ tr {
   justify-content: space-between;
   padding: 8px;
   border-radius: 5px;
+  position: relative
 }
 
 tr:hover {
@@ -62,6 +63,16 @@ tr:hover {
   background-position: center;
   overflow-y: scroll;
   max-height: 280px;
+}
+
+.blog-title {
+  text-align: left;
+  width: 70%;
+}
+
+.blog-date {
+  position: absolute;
+  right: 8px;
 }
 
 .nav-wrapper {

@@ -1,4 +1,4 @@
-import blogPreview from './constants.js';
+import { recentPosts } from './constants.js';
 
 let tableBody = document.getElementById('table-body');
 const attachBlogPosts = (arr) => {
@@ -7,8 +7,10 @@ const attachBlogPosts = (arr) => {
     let tableRow = document.createElement('tr');
     tableRow.setAttribute('data-href', './blog-posts/sample-post.html');
     let tableData1 = document.createElement('td');
+    tableData1.setAttribute('class', 'blog-title');
     tableData1.textContent = entry.title;
     let tableData2 = document.createElement('td');
+    tableData2.setAttribute('class', 'blog-date');
     let tableItal = document.createElement('i');
     tableItal.textContent = entry.date;
     tableData2.append(tableItal);
@@ -18,7 +20,7 @@ const attachBlogPosts = (arr) => {
   }
 };
 
-attachBlogPosts(blogPreview);
+attachBlogPosts(recentPosts);
 
 let table = document.getElementById('blog-posts');
 table.onclick = (e) => {
