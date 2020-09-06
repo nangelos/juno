@@ -128,6 +128,10 @@
   padding-left: 25px;
 }
 
+#blog-list {
+  display: inherit;
+}
+
 /* For Smaller Screens */
 /*Need to think about any images, text sizing, etc.*/
 @media(max-width: 485px){
