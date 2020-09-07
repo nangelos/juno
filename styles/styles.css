@@ -59,8 +59,10 @@ tr:hover {
 }
 
 #blog-section{
-  background-image: url('./images/space.png');
+  background-image: url('./images/milky-way.jpg');
   background-position: center;
+  object-fit: 'cover';
+  background-repeat: no-repeat;
   overflow-y: scroll;
   max-height: 280px;
 }

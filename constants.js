@@ -69,6 +69,62 @@ export const bookList = [
         title: 'Aftershock',
         author: 'Robert Reich',
       },
+      {
+        title: 'There Will Be No Miracles Here',
+        author: 'Casey Gerald',
+      },
+      {
+        title: 'Long Walk to Freedom',
+        author: 'Nelson Mandela',
+      },
+      {
+        title: 'Skythe',
+        author: 'Neal Shusterman',
+      },
+      {
+        title: 'Thunderhead',
+        author: 'Neal Shusterman',
+      },
+      {
+        title: 'House of Cards',
+        author: 'William D Cohan',
+      },
+      {
+        title: 'Stress Test',
+        author: 'Timothy Geithner',
+      },
+      {
+        title: 'Sapiens',
+        author: 'Yuval Noah Harari',
+      },
+      {
+        title: 'Homo Deus',
+        author: 'Yuval Noah Harari',
+      },
+      {
+        title: '21 Lessons for the 21st Century',
+        author: 'Yuval Noah Harari',
+      },
+      {
+        title: 'Born a Crime',
+        author: 'Trevor Noah',
+      },
+      {
+        title: 'Just Mercy',
+        author: 'Bryan Stevenson',
+      },
+      {
+        title: 'Investment Banking',
+        author: 'Joshua Rosenbaum and Joshua Pearl',
+      },
+      {
+        title: 'Becoming',
+        author: 'Michelle Obama',
+      },
+      {
+        title: 'How to Win Friends and Influence People',
+        author: 'Dale Carnegie',
+      },
     ],
   },
 ];
