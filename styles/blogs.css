@@ -74,7 +74,7 @@
 }
 
 .full-post {
-  width: 750px;
+  width: 900px;
   display: inherit;
   text-align: justify;
   padding: 10px;
@@ -126,6 +126,17 @@
   height: 40px;
   width: 40px;
   padding-left: 25px;
+}
+
+.source-code {
+  display: inherit;
+  font-family: monospace;
+  border: 2px solid #7b7b7b;
+  border-radius: 5px;
+  width: 80%;
+  padding: 12px;
+  margin: auto;
+  text-align: left;
 }
 
 #blog-list {
