@@ -9,7 +9,6 @@
 
 .single-post {
   width: 600px;
-  max-height: 280px;
   padding: 10px;
   margin-bottom: 24px;
   display: inherit;
@@ -77,6 +76,8 @@
   width: 900px;
   display: inherit;
   text-align: justify;
+  line-height: 2rem;
+  font-family: Arial;
   padding: 10px;
   background-color: black;
   color: rgb(209, 206, 199);
@@ -99,8 +100,8 @@
   margin-top: auto;
   margin-bottom: auto;
   margin-right: 10px;
-  height: 80px;
-  width: 80px;
+  height: 60px;
+  width: 60px;
 }
 
 .full-date {
@@ -124,8 +125,8 @@
 }
 
 .full-share-icon {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   padding-left: 25px;
 }
 
@@ -138,6 +139,12 @@
   padding: 12px;
   margin: auto;
   text-align: left;
+}
+
+.code {
+  font-family: monospace;
+  font-size: 16px;
+  color: darkorange;
 }
 
 #blog-list {

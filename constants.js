@@ -3,7 +3,7 @@ const blogPreview = [
     date: 'Sept 8, 2020',
     title: 'Why I Decided to Build a Blog and a Website',
     text:
-      'If I self-publish, nobody else is going to take down my posts, vacuum up data from readers, or monetize my intellectual property without giving me a cent.',
+      "If I do this myself, nobody is going to take down my posts, vacuum up data from readers, or monetize my intellectual property without giving me a cent. While I don't have any illusions about gaining a lucrative audience...",
     href: 'blog-posts/why-blog.html',
   },
   {
@@ -16,22 +16,18 @@ const blogPreview = [
 
 export const recentPosts = [
   {
-    date: 'Sept 4, 2020',
-    title: 'Why I Built This and Why it Matters to Have a Personal Website',
-    text:
-      'Hello world. My name is blah and I am a blah blah person who likes to blah. I went to the moon in 1969, what can you say about that? I love the...',
+    date: 'Sept 8, 2020',
+    title: 'Why I Decided to Build a Blog and a Website',
     href: 'blog-posts/sample-post.html',
   },
   {
     date: 'Aug 31, 2020',
     title: 'How to Make the World Interesting',
-    text: "I'm exceptionally excited about the moon in 1969, and then...",
     href: 'blog-posts/sample-post.html',
   },
   {
     date: 'Aug 3, 2020',
     title: 'How I Made a Third Recent Entry',
-    text: "I'm exceptionally excited about the moon in 1969, and then...",
     href: 'blog-posts/sample-post.html',
   },
 ];
