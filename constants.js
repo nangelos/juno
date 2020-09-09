@@ -1,10 +1,10 @@
 const blogPreview = [
   {
-    date: 'Sept 4, 2020',
-    title: 'Why I Built This and Why it Matters to Have a Personal Website',
+    date: 'Sept 8, 2020',
+    title: 'Why I Decided to Build a Blog and a Website',
     text:
-      'Hello world. My name is blah and I am a blah blah person who likes to blah. I went to the moon in 1969, what can you say about that? I love the...',
-    href: 'blog-posts/sample-post.html',
+      'If I self-publish, nobody else is going to take down my posts, vacuum up data from readers, or monetize my intellectual property without giving me a cent.',
+    href: 'blog-posts/why-blog.html',
   },
   {
     date: 'Aug 31, 2020',
