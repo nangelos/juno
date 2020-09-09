@@ -18,7 +18,7 @@ export const recentPosts = [
   {
     date: 'Sept 8, 2020',
     title: 'Why I Decided to Build a Blog and a Website',
-    href: 'blog-posts/sample-post.html',
+    href: 'blog-posts/why-blog.html',
   },
   {
     date: 'Aug 31, 2020',

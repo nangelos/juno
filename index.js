@@ -5,7 +5,7 @@ const attachBlogPosts = (arr) => {
   for (let i = 0; i < arr.length; i++) {
     let entry = arr[i];
     let tableRow = document.createElement('tr');
-    tableRow.setAttribute('data-href', './blog-posts/sample-post.html');
+    tableRow.setAttribute('data-href', entry.href);
     let tableData1 = document.createElement('td');
     tableData1.setAttribute('class', 'blog-title');
     tableData1.textContent = entry.title;
@@ -16,24 +16,24 @@ const attachBlogPosts = (arr) => {
     tableData2.append(tableItal);
     tableRow.append(tableData1);
     tableRow.append(tableData2);
+    tableRow.addEventListener('click', (e) => {
+      let href = e.currentTarget.dataset.href;
+      window.location = href;
+    });
     tableBody.append(tableRow);
   }
 };
 
 attachBlogPosts(recentPosts);
 
-let table = document.getElementById('blog-posts');
-table.onclick = (e) => {
-  let href = e.target.dataset.href;
-  window.location = href;
-};
-
-let btn = document.getElementById('social-box');
-btn.onclick = (e) => {
-  let href = e.target.dataset.href;
-  if (href !== 'mailto:angelos.nick@yahoo.com') {
-    window.open(href, '_blank');
-  } else {
-    window.location = href;
-  }
-};
+let btns = document.getElementsByClassName('row');
+for (let i = 0; i < btns.length; i++) {
+  btns[i].addEventListener('click', (e) => {
+    let href = e.currentTarget.dataset.href;
+    if (href !== 'mailto:angelos.nick@yahoo.com') {
+      window.open(href, '_blank');
+    } else {
+      window.location = href;
+    }
+  });
+}
