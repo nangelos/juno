@@ -1,0 +1,59 @@
+<html>
+  <html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <script defer src="../blogs.js"></script> -->
+  <link rel="stylesheet" href="../styles/books.css" />
+  <link rel="stylesheet" href="../styles/blogs.css" />
+  <link rel="icon" href="../styles/images/favicon.png" type="image/gif">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+  <title>Switching to Linux</title>
+</head>
+<body>
+
+  <div class="wrapper1">
+    <div class="wrapper2">
+      <div class="back-wrapper">
+        <a id="back" href="../blogs.html">← Back to Blogs</a>
+      </div>
+      <div style="display: inherit;">
+        <div class="full-post">
+          <div class="full-blog-header" style="display: flex">
+            <img class="full-picture" src="../styles/images/nick_bw.jpg">
+            <h4 class="full-date">Sept 20, 2020</h4>
+          </div>
+           <h1 style="text-align: center;">
+             When I Made the Switch to Linux
+           </h1>
+          <p>
+            One week ago my MacBook Pro crashed, just in time for the new semester of school to start. The good news was that my MacBook was from mid-2012, one of the last ones that you can actually open up and switch out your HDD for an SSD. I upgraded to an SSD a few months ago, so I have a fairly recent copy of my hard drive on the HDD. The bad news was that none of the easy fixes for that stupid folder with a question mark on startup worked, and I didn't really have time to mess with it since classes were starting. This meant that I was stuck with just my PC, and I was not about to start coding on Windows; I just wasn't. 
+          </p>
+          <p>
+            Enter Linux. My PC has way more space than I need, so I created a new partition, found an empty flash drive, downloaded Manjaro Linux, and made my flash drive bootable. So far so good. I restarted my computer, pressed F12, and waited for the boot menu to appear. When it did I was able to boot from the flash drive and click through an install wizard to put Manjaro on my empty partition, and just like that I had a new operating system on my PC. I have to confess I almost felt like a real software engineer, and I still get a little bit excited whenever I turn on my computer and have to decide whether to boot up Manjaro or Windows. Do I want to be a business person, or a tech guy? It's sort of like a digital mullet, business in the front, party in the back!
+          </p>
+          <p>
+            Now that I had Linux and was feeling like a boss, it was time to install all the software I need to do development. Step 1: install VS Code. I know, I know, real developers use Vim or Emacs. What can I say, I only dream of being a real dev one day. I do a google search, go to the downloads page, click the Linux version, and ... get an error: <span class="code">Cannot find fake root binary</span>. Try again, same erro. Something about my computer doesn't know how to open the .exe file to install VS Code. Ok, so new Step 1: install Skype so I can screenshare with my best friend who actually knows what the heck he's doing and can walk me through this. Same process, same error. In fact no matter what I try to download, nothing can install. 
+          </p>
+          <p>
+              So I decide to put my Google fu to the test, which tells me this is a pacman issue. As it turns out pacman is short for package manager, and all my problems will be solved by running <span class="code">install sudo pacman -S base-devel</span> in my command line. Cool, execpt I try and get a new error, which I Google and see a suggestion to try <span class="code">sudo pacman-mirrors -g</span> in my terminal, which actually works! Next step is to run <span class="code">pacman -Syyu</span> after which I can finally download this guy <a href="https://github.com/Jguer/yay" target="_blank">https://github.com/Jguer/yay</a> which, if I can follow the directions, will (allegedy) allow me to install software on my Linux machine. To my surprise, it WORKED! Next command: <span class="code">yay -S skype</span> to install Skype, and finally I'm out of the weeds. Well, sort of. At least now I can get the help I need from my guy <a href="https://github.com/jamestthompson3">Taylor Thompson</a>.
+            </p>
+            <p>
+            While I have a start on this new Linux machine, what I've learned very quickly is that you can do a lot of customization. The actual OS is tiny, which means it's lighting fast and doesn't come with a bunch of pre-installed garbage I will never use. It also means the UI is a little bit ugly, especially the mouse icons, so I'm working on that. While I'm not ready to say I will develop on Linux for the rest of my life, I will say I've really enjoyed it so far and I'm excited to see where this journey takes me.
+            </p>
+        </div>
+            <div class="full-blog-footer">
+              <div style="display: flex;">
+                <p class="share-it">SHARE IT</p>
+              </div>
+              <div>
+                <a style="margin: auto" href="https://twitter.com/intent/tweet?url/linux.html" target="_blank"><img class="full-share-icon" src="../styles/images/twit.png"></a>
+              </div>
+            </div>
+            <div class="copy-wrapper">
+              <h6 id="copyright">&copy; 2020 Nick Angelos
+            </div>
+          </div>
+    </div>
+  </body>
+  </html>

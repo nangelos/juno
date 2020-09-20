@@ -1,34 +1,30 @@
 const blogPreview = [
   {
+    date: 'Sept 20, 2020',
+    title: 'When I Made the Switch to Linux',
+    text:
+      "One week ago my MacBook Pro crashed, just in time for the new semester of school to start. The good news was that my MacBook was from mid-2012, one of the last ones that you can actually open up and switch out your HDD for an SSD...",
+    href: 'blog-posts/linux.html',
+  },
+  {
     date: 'Sept 8, 2020',
     title: 'Why I Decided to Build a Blog and a Website',
     text:
       "If I do this myself, nobody is going to take down my posts, vacuum up data from readers, or monetize my intellectual property without giving me a cent. While I don't have any illusions about gaining a lucrative audience...",
     href: 'blog-posts/why-blog.html',
   },
-  {
-    date: 'Aug 31, 2020',
-    title: 'How to Make the World Interesting',
-    text: "I'm exceptionally excited about the moon in 1969, and then...",
-    href: 'blog-posts/sample-post.html',
-  },
 ];
 
 export const recentPosts = [
   {
+    date: 'Sept 20, 2020',
+    title: 'When I Made the Switch to Linux',
+    href: 'blog-posts/linux.html',
+  },
+  {
     date: 'Sept 8, 2020',
     title: 'Why I Decided to Build a Blog and a Website',
     href: 'blog-posts/why-blog.html',
-  },
-  {
-    date: 'Aug 31, 2020',
-    title: 'How to Make the World Interesting',
-    href: 'blog-posts/sample-post.html',
-  },
-  {
-    date: 'Aug 3, 2020',
-    title: 'How I Made a Third Recent Entry',
-    href: 'blog-posts/sample-post.html',
   },
 ];
 
