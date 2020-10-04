@@ -33,6 +33,10 @@ export const bookList = [
     year: 2020,
     books: [
       {
+        title: 'The Startup of You',
+        author: 'Reid Hoffman',
+      },
+      {
         title: 'Enlightenment Now',
         author: 'Steven Pinker',
       },
