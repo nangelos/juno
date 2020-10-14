@@ -33,6 +33,10 @@ export const bookList = [
     year: 2020,
     books: [
       {
+        title: 'The 10% Entrepreneur',
+        author: 'Patrick McGinnis',
+      },
+      {
         title: 'The Startup of You',
         author: 'Reid Hoffman',
       },
