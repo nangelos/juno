@@ -33,6 +33,14 @@ export const bookList = [
     year: 2020,
     books: [
       {
+        title: 'What You Do Is Who You Are',
+        author: 'Ben Horowitz',
+      },
+      {
+        title: 'The Hard Thing About Hard Things',
+        author: 'Ben Horowitz',
+      },
+      {
         title: 'The 10% Entrepreneur',
         author: 'Patrick McGinnis',
       },
