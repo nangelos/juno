@@ -84,6 +84,7 @@ tr:hover {
   position: fixed;
   margin: 1px;
   max-width: 1250px;
+  z-index: 1000;
 }
 
 .navbar {
