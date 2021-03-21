@@ -1,5 +1,12 @@
 const blogPreview = [
   {
+    date: 'Feb 1, 2021',
+    title: 'Can I Even Add Any Value to a Startup?',
+    text:
+      "If you’re like me, you love startups. You love the energy, the feeling of doing something new or better, the big dreams, and the sheer amount of work that needs to be done because there is so little structure. Maybe you want to work at a startup but don’t feel like you have the necessary skill level...",
+    href: 'blog-posts/adding-value.html',
+  },
+  {
     date: 'Sept 20, 2020',
     title: 'When I Made the Switch to Linux',
     text:
@@ -16,7 +23,12 @@ const blogPreview = [
 ];
 
 export const recentPosts = [
+  
   {
+    date: 'Feb 1, 2021',
+    title: 'Can I Even Add Any Value to a Startup?',
+    href: 'blog-posts/adding-value.html',
+  },{
     date: 'Sept 20, 2020',
     title: 'When I Made the Switch to Linux',
     href: 'blog-posts/linux.html',
@@ -30,8 +42,21 @@ export const recentPosts = [
 
 export const bookList = [
   {
+    year: 2021,
+    books: [
+      {
+        title: 'Entering StartUpLand',
+        author: 'Jeffrey Bussgang'
+      }
+    ],
+  },
+  {
     year: 2020,
     books: [
+      {
+        title: 'A Promised Land',
+        author: 'Barack Obama'
+      },
       {
         title: 'What You Do Is Who You Are',
         author: 'Ben Horowitz',
