@@ -47,6 +47,10 @@ export const bookList = [
       {
         title: 'Entering StartUpLand',
         author: 'Jeffrey Bussgang'
+      },
+      {
+        title: 'The Warmth of Other Suns',
+        author: 'Isabel Wilkerson'
       }
     ],
   },
