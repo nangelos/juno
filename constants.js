@@ -23,12 +23,12 @@ const blogPreview = [
 ];
 
 export const recentPosts = [
-  
+
   {
     date: 'Feb 1, 2021',
     title: 'Can I Even Add Any Value to a Startup?',
     href: 'blog-posts/adding-value.html',
-  },{
+  }, {
     date: 'Sept 20, 2020',
     title: 'When I Made the Switch to Linux',
     href: 'blog-posts/linux.html',
@@ -51,7 +51,23 @@ export const bookList = [
       {
         title: 'The Warmth of Other Suns',
         author: 'Isabel Wilkerson'
-      }
+      },
+      {
+        title: 'The Price of Inequality',
+        author: 'Joseph E. Stiglitz'
+      },
+      {
+        title: 'The Fire Next Time',
+        author: 'James Baldwin'
+      },
+      {
+        title: 'How to Be an Antiracist',
+        author: 'Ibram X. Kendi'
+      },
+      {
+        title: 'Between the World and Me',
+        author: 'Ta-Nehisi Coates'
+      },
     ],
   },
   {
