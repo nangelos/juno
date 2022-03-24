@@ -1,4 +1,5 @@
 import { bookList } from './constants.js';
+console.log(bookList)
 
 const table = document.getElementById('table-body');
 

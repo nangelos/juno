@@ -42,8 +42,25 @@ export const recentPosts = [
 
 export const bookList = [
   {
+    year: 2022,
+    books: [
+      {
+        title: 'Caste',
+        author: 'Isabel Wilkerson'
+      },
+    ],
+  },
+  {
     year: 2021,
     books: [
+      {
+        title: 'Crib Sheet',
+        author: 'Emily Oster'
+      },
+      {
+        title: 'Permanent Record',
+        author: 'Edward Snowden'
+      },
       {
         title: 'Entering StartUpLand',
         author: 'Jeffrey Bussgang'
