@@ -48,6 +48,26 @@ export const bookList = [
         title: 'Caste',
         author: 'Isabel Wilkerson'
       },
+      {
+        title: 'The Bourne Identity',
+        author: 'Robert Ludlum'
+      },
+      {
+        title: 'Break Into VC',
+        author: 'Bradley Miles'
+      },
+/*      {
+        title: 'Secrets of Sandhill Road',
+        author: 'Scott Kupoor'
+      },
+      {
+        title: 'The Bourne Supremacy',
+        author: 'Robert Ludlum'
+      },
+      {
+        title: 'The Nordic Theory of Everything',
+        author: 'Anu Partanen'
+      },*/
     ],
   },
   {
@@ -83,6 +103,10 @@ export const bookList = [
       },
       {
         title: 'Between the World and Me',
+        author: 'Ta-Nehisi Coates'
+      },
+      {
+        title: 'We Were Eight Years in Power',
         author: 'Ta-Nehisi Coates'
       },
     ],
