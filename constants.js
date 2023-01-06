@@ -42,6 +42,19 @@ export const recentPosts = [
 
 export const bookList = [
   {
+    year: 2023,
+    books: [
+       // {
+      //   title: 'The Bourne Supremacy',
+      //   author: 'Robert Ludlum'
+      // },
+      // {
+      //   title: 'The Nordic Theory of Everything',
+      //   author: 'Anu Partanen'
+      // },
+    ]
+  },
+  {
     year: 2022,
     books: [
       {
@@ -56,18 +69,14 @@ export const bookList = [
         title: 'Break Into VC',
         author: 'Bradley Miles'
       },
-/*      {
+      {
         title: 'Secrets of Sandhill Road',
         author: 'Scott Kupoor'
       },
       {
-        title: 'The Bourne Supremacy',
-        author: 'Robert Ludlum'
-      },
-      {
-        title: 'The Nordic Theory of Everything',
-        author: 'Anu Partanen'
-      },*/
+        title: 'eBoys',
+        author: 'Randall E. Stross'
+      }
     ],
   },
   {
