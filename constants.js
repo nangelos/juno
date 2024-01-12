@@ -2,33 +2,30 @@ const blogPreview = [
   {
     date: 'Feb 1, 2021',
     title: 'Can I Even Add Any Value to a Startup?',
-    text:
-      "If you’re like me, you love startups. You love the energy, the feeling of doing something new or better, the big dreams, and the sheer amount of work that needs to be done because there is so little structure. Maybe you want to work at a startup but don’t feel like you have the necessary skill level...",
+    text: 'If you’re like me, you love startups. You love the energy, the feeling of doing something new or better, the big dreams, and the sheer amount of work that needs to be done because there is so little structure. Maybe you want to work at a startup but don’t feel like you have the necessary skill level...',
     href: 'blog-posts/adding-value.html',
   },
   {
     date: 'Sept 20, 2020',
     title: 'When I Made the Switch to Linux',
-    text:
-      "One week ago my MacBook Pro crashed, just in time for the new semester of school to start. The good news was that my MacBook was from mid-2012, one of the last ones that you can actually open up and switch out your HDD for an SSD...",
+    text: 'One week ago my MacBook Pro crashed, just in time for the new semester of school to start. The good news was that my MacBook was from mid-2012, one of the last ones that you can actually open up and switch out your HDD for an SSD...',
     href: 'blog-posts/linux.html',
   },
   {
     date: 'Sept 8, 2020',
     title: 'Why I Decided to Build a Blog and a Website',
-    text:
-      "If I do this myself, nobody is going to take down my posts, vacuum up data from readers, or monetize my intellectual property without giving me a cent. While I don't have any illusions about gaining a lucrative audience...",
+    text: "If I do this myself, nobody is going to take down my posts, vacuum up data from readers, or monetize my intellectual property without giving me a cent. While I don't have any illusions about gaining a lucrative audience...",
     href: 'blog-posts/why-blog.html',
   },
 ];
 
 export const recentPosts = [
-
   {
     date: 'Feb 1, 2021',
     title: 'Can I Even Add Any Value to a Startup?',
     href: 'blog-posts/adding-value.html',
-  }, {
+  },
+  {
     date: 'Sept 20, 2020',
     title: 'When I Made the Switch to Linux',
     href: 'blog-posts/linux.html',
@@ -42,41 +39,54 @@ export const recentPosts = [
 
 export const bookList = [
   {
-    year: 2023,
+    year: 2024,
     books: [
-       // {
-      //   title: 'The Bourne Supremacy',
-      //   author: 'Robert Ludlum'
-      // },
       // {
       //   title: 'The Nordic Theory of Everything',
       //   author: 'Anu Partanen'
       // },
-    ]
+    ],
+  },
+  {
+    year: 2023,
+    books: [
+      {
+        title: 'The Bourne Supremacy',
+        author: 'Robert Ludlum',
+      },
+      {
+        title: 'White Fragility',
+        author: 'Robin DiAngelo',
+      },
+      {
+        title: 'Casino Royale',
+        author: 'Ian Fleming',
+      },
+    ],
   },
   {
     year: 2022,
     books: [
       {
         title: 'Caste',
-        author: 'Isabel Wilkerson'
+        author: 'Isabel Wilkerson',
       },
       {
         title: 'The Bourne Identity',
-        author: 'Robert Ludlum'
+        author: 'Robert Ludlum',
       },
       {
         title: 'Break Into VC',
-        author: 'Bradley Miles'
+        author: 'Bradley Miles',
       },
       {
         title: 'Secrets of Sandhill Road',
-        author: 'Scott Kupoor'
+        author: 'Scott Kupoor',
       },
       {
         title: 'eBoys',
-        author: 'Randall E. Stross'
-      }
+        author: 'Randall E. Stross',
+      },
     ],
   },
   {
@@ -84,39 +94,39 @@ export const bookList = [
     books: [
       {
         title: 'Crib Sheet',
-        author: 'Emily Oster'
+        author: 'Emily Oster',
       },
       {
         title: 'Permanent Record',
-        author: 'Edward Snowden'
+        author: 'Edward Snowden',
       },
       {
         title: 'Entering StartUpLand',
-        author: 'Jeffrey Bussgang'
+        author: 'Jeffrey Bussgang',
       },
       {
         title: 'The Warmth of Other Suns',
-        author: 'Isabel Wilkerson'
+        author: 'Isabel Wilkerson',
       },
       {
         title: 'The Price of Inequality',
-        author: 'Joseph E. Stiglitz'
+        author: 'Joseph E. Stiglitz',
       },
       {
         title: 'The Fire Next Time',
-        author: 'James Baldwin'
+        author: 'James Baldwin',
       },
       {
         title: 'How to Be an Antiracist',
-        author: 'Ibram X. Kendi'
+        author: 'Ibram X. Kendi',
       },
       {
         title: 'Between the World and Me',
-        author: 'Ta-Nehisi Coates'
+        author: 'Ta-Nehisi Coates',
       },
       {
         title: 'We Were Eight Years in Power',
-        author: 'Ta-Nehisi Coates'
+        author: 'Ta-Nehisi Coates',
       },
     ],
   },
@@ -125,7 +135,7 @@ export const bookList = [
     books: [
       {
         title: 'A Promised Land',
-        author: 'Barack Obama'
+        author: 'Barack Obama',
       },
       {
         title: 'What You Do Is Who You Are',
