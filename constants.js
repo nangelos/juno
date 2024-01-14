@@ -62,6 +62,10 @@ export const bookList = [
         title: 'Casino Royale',
         author: 'Ian Fleming',
       },
+      {
+        title: 'The Alchemist',
+        author: 'Paulo Coelho',
+      },
     ],
   },
   {
