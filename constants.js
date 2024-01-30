@@ -1,5 +1,11 @@
 const blogPreview = [
   {
+    date: 'Jan 15, 2024',
+    title: "Why I Don't Make New Year's Resolutions",
+    text: 'Every January, people around the world set goals for the new year, resolving to eat healthier, exercise more frequently, develop new skills, hit a financial goal, or expand their horizons in some other way. All of these can be admirable goals - there’s nothing wrong with a little self improvement - but New Year’s Resolutions are virtually always based on a flawed premise...',
+    href: 'blog-posts/new-years-resolutions.html',
+  },
+  {
     date: 'Feb 1, 2021',
     title: 'Can I Even Add Any Value to a Startup?',
     text: 'If you’re like me, you love startups. You love the energy, the feeling of doing something new or better, the big dreams, and the sheer amount of work that needs to be done because there is so little structure. Maybe you want to work at a startup but don’t feel like you have the necessary skill level...',
@@ -21,6 +27,11 @@ const blogPreview = [
 
 export const recentPosts = [
   {
+    date: 'Jan 15, 2024',
+    title: "Why I Don't Make New Year's Resolutions",
+    href: 'blog-posts/new-years-resolutions.html',
+  },
+  {
     date: 'Feb 1, 2021',
     title: 'Can I Even Add Any Value to a Startup?',
     href: 'blog-posts/adding-value.html',
@@ -41,6 +52,26 @@ export const bookList = [
   {
     year: 2024,
     books: [
+      {
+        title: 'The Sympathizer',
+        author: 'Viet Thanh Nguyen',
+      },
+      // {
+      //   title: 'Playing in the Dark',
+      //   author: 'Toni Morrison'
+      // },
+      // {
+      //   title: 'The Committed',
+      //   author: 'Viet Thanh Nguyen'
+      // },
+      // {
+      //   title: 'The Crisis of Democratic Capitalism',
+      //   author: 'Martin Wolf'
+      // },
+      // {
+      //   title: 'The Bluest Eye',
+      //   author: 'Toni Morrison'
+      // },
       // {
       //   title: 'The Nordic Theory of Everything',
       //   author: 'Anu Partanen'
