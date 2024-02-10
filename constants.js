@@ -56,10 +56,10 @@ export const bookList = [
         title: 'The Sympathizer',
         author: 'Viet Thanh Nguyen',
       },
-      // {
-      //   title: 'Playing in the Dark',
-      //   author: 'Toni Morrison'
-      // },
+      {
+        title: 'Playing in the Dark',
+        author: 'Toni Morrison',
+      },
       // {
       //   title: 'The Committed',
       //   author: 'Viet Thanh Nguyen'
