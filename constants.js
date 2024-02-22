@@ -60,6 +60,14 @@ export const bookList = [
         title: 'Playing in the Dark',
         author: 'Toni Morrison',
       },
+      {
+        title: 'The Bluest Eye',
+        author: 'Toni Morrison',
+      },
+      {
+        title: 'Night',
+        author: 'Elie Wiesel',
+      },
       // {
       //   title: 'The Committed',
       //   author: 'Viet Thanh Nguyen'
@@ -67,10 +75,6 @@ export const bookList = [
       // {
       //   title: 'The Crisis of Democratic Capitalism',
       //   author: 'Martin Wolf'
-      // },
-      // {
-      //   title: 'The Bluest Eye',
-      //   author: 'Toni Morrison'
       // },
       // {
       //   title: 'The Nordic Theory of Everything',
