@@ -68,6 +68,10 @@ export const bookList = [
         title: 'Night',
         author: 'Elie Wiesel',
       },
+      {
+        title: 'Parenting Beyond Belief',
+        author: 'Dale McGowan et al.',
+      },
       // {
       //   title: 'The Committed',
       //   author: 'Viet Thanh Nguyen'
