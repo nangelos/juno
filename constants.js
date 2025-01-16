@@ -72,10 +72,10 @@ export const bookList = [
         title: 'Parenting Beyond Belief',
         author: 'Dale McGowan et al.',
       },
-      // {
-      //   title: 'The Committed',
-      //   author: 'Viet Thanh Nguyen'
-      // },
+      {
+        title: 'The Committed',
+        author: 'Viet Thanh Nguyen',
+      },
       // {
       //   title: 'The Crisis of Democratic Capitalism',
       //   author: 'Martin Wolf'
