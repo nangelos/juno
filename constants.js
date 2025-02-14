@@ -50,6 +50,13 @@ export const recentPosts = [
 
 export const bookList = [
   {
+    year: 2025,
+    books: [
+      {
+        title: 'Underground Empire',
+        author: 'Henry Farrell and Abraham Newman',
+      },
+    ],
     year: 2024,
     books: [
       {
