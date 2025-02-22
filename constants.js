@@ -56,13 +56,31 @@ export const bookList = [
         title: 'Underground Empire',
         author: 'Henry Farrell and Abraham Newman',
       },
+      // {
+      //   title: 'Alexander Hamilton',
+      //   author: 'Ron Chernow'
+      // },
+      // {
+      //   title: 'The Message',
+      //   author: 'Ta-Nehisi Coates'
+      // },
+      // {
+      //   title: 'The Crisis of Democratic Capitalism',
+      //   author: 'Martin Wolf'
+      // },
+      // {
+      //   title: 'The Nordic Theory of Everything',
+      //   author: 'Anu Partanen'
+      // },
+      // {
+      //   title: 'Zero to One',
+      //   author: 'Peter Thiel'
+      // },
     ],
+  },
+  {
     year: 2024,
     books: [
-      {
-        title: 'The Sympathizer',
-        author: 'Viet Thanh Nguyen',
-      },
       {
         title: 'The Sympathizer',
         author: 'Viet Thanh Nguyen',
@@ -87,14 +105,6 @@ export const bookList = [
         title: 'The Committed',
         author: 'Viet Thanh Nguyen',
       },
-      // {
-      //   title: 'The Crisis of Democratic Capitalism',
-      //   author: 'Martin Wolf'
-      // },
-      // {
-      //   title: 'The Nordic Theory of Everything',
-      //   author: 'Anu Partanen'
-      // },
     ],
   },
   {
