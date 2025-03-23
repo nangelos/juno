@@ -56,13 +56,13 @@ export const bookList = [
         title: 'Underground Empire',
         author: 'Henry Farrell and Abraham Newman',
       },
+      {
+        title: 'The Message',
+        author: 'Ta-Nehisi Coates',
+      },
       // {
       //   title: 'Alexander Hamilton',
       //   author: 'Ron Chernow'
-      // },
-      // {
-      //   title: 'The Message',
-      //   author: 'Ta-Nehisi Coates'
       // },
       // {
       //   title: 'The Crisis of Democratic Capitalism',
