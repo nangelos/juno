@@ -60,6 +60,10 @@ export const bookList = [
         title: 'The Message',
         author: 'Ta-Nehisi Coates',
       },
+      {
+        title: 'Promise Me, Dad',
+        author: 'Joe Biden',
+      },
       // {
       //   title: 'Alexander Hamilton',
       //   author: 'Ron Chernow'
