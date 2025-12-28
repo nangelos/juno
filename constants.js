@@ -50,20 +50,17 @@ export const recentPosts = [
 
 export const bookList = [
   {
-    year: 2025,
+    year: 2026,
     books: [
-      {
-        title: 'Underground Empire',
-        author: 'Henry Farrell and Abraham Newman',
-      },
-      {
-        title: 'The Message',
-        author: 'Ta-Nehisi Coates',
-      },
-      {
-        title: 'Promise Me, Dad',
-        author: 'Joe Biden',
-      },
+      // {
+      // {
+      //   title: 'Rainbow Six',
+      //   author: 'Tom Clancy'
+      // },
+      // {
+      //   title: 'What Would Martin Say?',
+      //   author: 'Clarence B. Jones'
+      // },
       // {
       //   title: 'Alexander Hamilton',
       //   author: 'Ron Chernow'
@@ -80,6 +77,27 @@ export const bookList = [
       //   title: 'Zero to One',
       //   author: 'Peter Thiel'
       // },
+    ],
+  },
+  {
+    year: 2025,
+    books: [
+      {
+        title: 'Underground Empire',
+        author: 'Henry Farrell and Abraham Newman',
+      },
+      {
+        title: 'The Message',
+        author: 'Ta-Nehisi Coates',
+      },
+      {
+        title: 'Promise Me, Dad',
+        author: 'Joe Biden',
+      },
+      {
+        title: 'The Technological Republic',
+        author: 'Alexander Karp',
+      },
     ],
   },
   {
