@@ -73,10 +73,10 @@ export const bookList = [
       //   title: 'The Nordic Theory of Everything',
       //   author: 'Anu Partanen'
       // },
-      // {
-      //   title: 'Zero to One',
-      //   author: 'Peter Thiel'
-      // },
+      {
+        title: 'Zero to One',
+        author: 'Peter Thiel'
+      },
     ],
   },
   {
