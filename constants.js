@@ -77,6 +77,14 @@ export const bookList = [
         title: 'Zero to One',
         author: 'Peter Thiel'
       },
+      {
+        title: "All the Shah's Men",
+        author: 'Stephen Kinzer'
+      },
+      {
+        title: 'The Brothers',
+        author: 'Stephen Kinzer'
+      },
     ],
   },
   {
