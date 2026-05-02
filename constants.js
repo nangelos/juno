@@ -53,26 +53,30 @@ export const bookList = [
     year: 2026,
     books: [
       // {
-      // {
-      //   title: 'Rainbow Six',
-      //   author: 'Tom Clancy'
-      // },
-      // {
-      //   title: 'What Would Martin Say?',
-      //   author: 'Clarence B. Jones'
-      // },
-      // {
-      //   title: 'Alexander Hamilton',
-      //   author: 'Ron Chernow'
-      // },
-      // {
-      //   title: 'The Crisis of Democratic Capitalism',
-      //   author: 'Martin Wolf'
-      // },
-      // {
-      //   title: 'The Nordic Theory of Everything',
-      //   author: 'Anu Partanen'
-      // },
+        // {
+          //   title: 'What Would Martin Say?',
+          //   author: 'Clarence B. Jones'
+          // },
+          // {
+            //   title: 'Alexander Hamilton',
+            //   author: 'Ron Chernow'
+            // },
+            // {
+              //   title: 'The Crisis of Democratic Capitalism',
+              //   author: 'Martin Wolf'
+              // },
+              // {
+                //   title: 'The Nordic Theory of Everything',
+                //   author: 'Anu Partanen'
+                // },
+      {
+        title: "Runnin' Down a Dream",
+        author: 'Bill Gurley'
+       },
+      {
+        title: 'Rainbow Six',
+        author: 'Tom Clancy'
+       },
       {
         title: 'Zero to One',
         author: 'Peter Thiel'
