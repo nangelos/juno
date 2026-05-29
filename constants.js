@@ -69,6 +69,14 @@ export const bookList = [
                 //   title: 'The Nordic Theory of Everything',
                 //   author: 'Anu Partanen'
                 // },
+              // {
+                //   title: 'Build',
+                //   author: 'Tony Fadell'
+                // },
+      {
+        title: "Streetwise",
+        author: 'Lloyd Blankfein'
+       },
       {
         title: "Runnin' Down a Dream",
         author: 'Bill Gurley'
